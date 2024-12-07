@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+
+}
+.home_section1{
+    position: relative;
+    
+}
+img{
+    overflow: hidden !important;
+}
+.section1__inner{
+    position: absolute;
+    transform: translate(10%,100%);
+    left: 0;
+    top: 0;
+    z-index: 1222222222222;
+}
+
+.home_section1{
+max-width: 100% !important;
+
+img{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+}
+.section1__inner{
+    p{
+        color: green;
+    }
+    h1{
+        color: #FFFFFF;
+    }
+}

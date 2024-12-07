@@ -45,11 +45,15 @@
     justify-content: center;
     flex-direction: column;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
   .footer__first{
     ul{
         li{
-            font-size: 16px;
+            h2{
+                font-size: 23px;
+            }
+            font-size: 16px !important;
+            color: red;
         }
     }
   }
@@ -59,9 +63,13 @@
         height: 40px;
     }
   }
+  .footer__bottom__inner{
+    display: flex;
+    gap: 0px !important;
+  }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
         .footer__bottom__inner{
             display: flex;
             flex-direction: column;
