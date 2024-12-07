@@ -43,6 +43,7 @@
     border-radius: 10px;
     border-bottom: none;
     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     li{
         list-style: none;
         a{
@@ -61,4 +62,5 @@
 
 .table__admin{
     width: 900px;
+    padding: 30px;
 }
