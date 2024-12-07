@@ -51,4 +51,7 @@
 }
 
 
-
+.table__admin{
+    width: 900px;
+    padding: 30px;
+}
