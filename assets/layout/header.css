@@ -35,10 +35,10 @@
       font-weight: 400;
       line-height: 26px;
       list-style: none;
-      i {
-      }
+      
     }
   }
+
 }
 
 .header__top__right {
@@ -162,4 +162,18 @@
 
 .offcanvas {
   height: 600px !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header__bottom__forth{
+    button{
+        a{
+            color: #ffffff !important;
+            text-decoration: none;
+        }
+    }
 }
