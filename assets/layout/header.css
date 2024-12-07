@@ -36,7 +36,6 @@
       line-height: 26px;
       list-style: none;
       
-      
     }
   }
 
@@ -163,4 +162,18 @@
 
 .offcanvas {
   height: 600px !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header__bottom__forth{
+    button{
+        a{
+            color: #ffffff !important;
+            text-decoration: none;
+        }
+    }
 }
