@@ -232,6 +232,10 @@
     align-items: center;
     gap: 30px;
 }
+.missions-row{
+    display: flex;
+    gap: 50px;
+}
 .left_mission_column{
     display: flex;
     flex-direction: column;
