@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Section 1 start */
+#contact-first {
+  background-image: url("../image/contact-page.png");
+  background-size: cover;
+  background-position: center;
+  height: 340px;
+}
+.contact-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 340px;
+}
+.contact-title {
+  color: white;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 91px;
+  font-family: "Hind", sans-serif;
+}
+.contact-link {
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.contact-link a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Hind", sans-serif;
+}
+
+/* Section 2 start */
+
+#get-in-touch {
+  margin: 110px 0;
+}
+.contact-center {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.left-part-contact {
+  width: 537.41px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.left-part-contact h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  font-family: "Hind", sans-serif;
+}
+.left-part-contact h2 span {
+  font-weight: 100;
+  font-family: "Hind", sans-serif;
+}
+.left-part-contact input {
+  /* min-width: 537px; */
+  width: 100% !important;
+  height: 49.6px;
+  border-radius: 3px;
+  border: 1px solid rgb(221, 216, 249);
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter";
+  outline: none;
+  font-family: "Hind", sans-serif;
+}
+
+.inp-contact {
+  display: flex;
+  flex-direction: column;
+}
+.inp-contact label {
+  font-weight: 600;
+  font-family: "Hind", sans-serif;
+}
+.inp-contact textarea {
+  width: 100% !important;
+  height: 150px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid rgb(221, 216, 249);
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter";
+}
+
+.btn-contact button {
+  background-color: #36348e;
+  width: 165px;
+  height: 49px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter";
+}
+.error-text {
+  color: #f00;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  margin: 10px 0;
+}
+.right-part-contact iframe {
+  width: 600px;
+  height: 450px;
+}
+
+@media (max-width: 1286px) {
+  .right-part-contact iframe {
+    width: 500px;
+  }
+  .left-part-contact {
+    width: 500px;
+  }
+  .left-part-contact input {
+    width: 490px;
+  }
+}
+@media (max-width: 1124px) {
+  .contact-center {
+    flex-direction: column-reverse;
+  }
+  .left-part-contact {
+    min-width: 900px;
+  }
+  .right-part-contact iframe {
+    min-width: 900px;
+    height: 450px;
+  }
+}
+@media (max-width: 1000px) {
+  .left-part-contact {
+    min-width: 800px;
+  }
+  .right-part-contact iframe {
+    min-width: 800px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 900px) {
+  .left-part-contact {
+    min-width: 700px;
+  }
+  .left-part-contact h2 {
+    font-size: 24px;
+  }
+  .right-part-contact iframe {
+    min-width: 700px;
+  }
+}
+@media (max-width: 800px) {
+  .left-part-contact {
+    min-width: 600px;
+  }
+  .left-part-contact h2 {
+    font-size: 24px;
+  }
+  .right-part-contact iframe {
+    min-width: 600px;
+  }
+}
+@media (max-width: 668px) {
+  .left-part-contact {
+    min-width: 500px;
+  }
+  .left-part-contact h2 {
+    font-size: 24px;
+  }
+  .right-part-contact iframe {
+    min-width: 500px;
+  }
+}
+@media (max-width: 607px) {
+  #contact-first {
+    width: 100%;
+  }
+  #get-in-touch {
+    margin: 100px 0;
+  }
+  .left-part-inputs {
+    width: 300px;
+  }
+  .inp-contact {
+    width: 300px;
+  }
+  form {
+    width: 300px;
+  }
+  .left-part-title {
+    width: 300px !important;
+  }
+  .left-part-contact {
+    width: 300px !important;
+  }
+  .left-part-contact input {
+    width: 400px !important;
+  }
+  .left-part-contact textarea {
+    width: 400px !important;
+  }
+  .left-part-contact h2 {
+    font-size: 24px;
+  }
+  .right-part-contact {
+    width: 400px !important;
+    border: 2px solid red;
+    overflow: hidden !important;
+  }
+  .right-part-contact iframe {
+    min-width: 200px !important;
+  }
+}
