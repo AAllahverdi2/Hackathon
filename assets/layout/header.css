@@ -166,3 +166,39 @@ justify-content: center;
      .offcanvas{
       height: 600px !important; 
      }
+
+
+     .header__admin__category{
+         select{
+            width: 120px;
+            height: 40px;
+            border-radius: 10px;
+            width: 100px;
+            border: 2px solid #36348E !important;
+            color: #36348E;
+        }
+     }
+
+     .admin__third{
+        i{
+            font-size: 24px;
+            color: #36348E;
+        }
+     }
+
+     .first_btn{
+        border: 1px solid purple;
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: white;
+     }
+     .second__btn{
+        border: 1px solid purple;
+        background-color: purple !important;
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: white;
+        color: white;
+     }
