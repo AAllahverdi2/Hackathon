@@ -177,3 +177,13 @@ a{
         }
     }
 }
+
+.header__admin__category{
+  select{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #36348e;
+    color: #36348e;
+  }
+}
