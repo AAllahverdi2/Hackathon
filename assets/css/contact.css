@@ -182,17 +182,18 @@
 }
 @media (max-width: 668px) {
   .left-part-contact {
-    min-width: 500px;
+    /* ********** */
+    min-width: 300px;
   }
   .left-part-contact h2 {
     font-size: 24px;
   }
   .right-part-contact iframe {
-    min-width: 500px;
+    min-width: 400px;
   }
 }
 @media (max-width: 607px) {
-  #contact-first {
+  /* #contact-first {
     width: 100%;
   }
   #get-in-touch {
@@ -206,7 +207,7 @@
   }
   form {
     width: 300px;
-  }
+  } */
   .left-part-title {
     width: 300px !important;
   }
@@ -223,11 +224,29 @@
     font-size: 24px;
   }
   .right-part-contact {
-    width: 400px !important;
-    border: 2px solid red;
+    width: 350px !important;
     overflow: hidden !important;
   }
   .right-part-contact iframe {
     min-width: 200px !important;
   }
 }
+
+
+@media only screen and (max-width: 500px) {
+   .left-part-contact{
+    width: 350px !important;
+    overflow: hidden;
+   }
+   .left-part-contact input{
+    width: 340px !important;
+
+   }
+   .left-part-contact textarea{
+    width: 340px !important;
+
+   }
+   .right-part-contact iframe {
+  width: 320px !important;
+  }
+  }
